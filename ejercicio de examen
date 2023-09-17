@@ -1,0 +1,13 @@
+def calcula masacorporal():
+imc=peso/(altura**2)
+print( "¿Cuál es tu peso?")
+peso=input ( )
+print("¿Cuál es tu altura?")
+altura=input( )
+print("¿Quieres calcular tu imc?")
+input ( )
+peso=input( "peso en kg:")
+altura=input("altura en m y cm:")
+imc=input (calcula_masacorporal)+int (peso, altura )
+print=("tu masa corporal es", imc)
+calcula_masacorporal ()
