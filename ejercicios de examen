@@ -1,0 +1,27 @@
+calculadora_intereses()
+17 v def Calculadora_descuento( ):
+print("¿Quieres saber el descuento de los zapatos")
+tenis=input()
+print ( "¿Qué descuento hay en estos tents?")
+botas=input()
+print("¿En cuanto estan estas botas?")
+input()
+descuento_total=input(botas)*(input(tenis)/100)
+total=int(precio_total)-int (descuento_total)
+print("el precio genersal es" ‚precio total)
+print("el descuento_total", total)
+
+
+def calculadora, intereses():
+3
+print("¿Cuanto has invertido?")
+gastos=input ()
+print("¿Cual es la tasa de intereses anualmente?")
+tasa-input()
+print("¿Cuantos años tiene la inversion?")
+input()
+interes_total-input(gastos)-(input(tasa)/100)
+total1-int(interes_total)+int(gastos)
+print("El interes total es", interes total)
+print( "tu total de ganancias es", total1)
+rch
