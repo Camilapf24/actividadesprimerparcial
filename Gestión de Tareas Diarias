@@ -1,0 +1,15 @@
+def tareas_entre_semanas():
+  #Definir las variables 
+  día_de_semana = int (input("Ingrese el día de la semana: "))
+  print("Si la hora es mayor a 1 y menor o igual 5 / Debes estar dormido")
+  hora_de_inicio = int (input("Ingresa la hoara de inicio:"))
+  print("Si la hora es mayor a 5 y menor a 14 / Debes estar en clase:")
+  hora_de_fin = int (input("Ingresa la hora de fin:"))
+  print("Si la hora es meyor a 14 y menor a 22/ Puedes hacer tareas:")
+  #Tú semana
+  if día_de_semana in [1, 2, 3, 4, 5] and \
+   hora_de_inicio >= 8 and hora_de_inicio <= 9 and \
+   hora_de_fin >= 8 and hora_de_fin <= 9:
+    print("Tienes clase")
+  else:
+    print("Además de tomer una siesta puedes comenzar a realizar tus tareas")
